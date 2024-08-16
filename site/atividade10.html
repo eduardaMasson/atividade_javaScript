@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        var minutos = prompt("Digite o valor em minutos: ") //armazena o número informado
+        minutos = parseFloat(minutos) //converte a string para float
+        var hora = (minutos / 60) //variável para a calcular a hora
+        var min = (minutos%60) //variável para calcular os minutos (o resto do valor)
+        hora = parseInt(hora) //converte a string para int
+        alert(hora + "h" + min) //exibe o resultado
+    </script>
+</head>
+<body>
+    <h1>Converter Minutos para Horas e Minutos</h1>
+</body>
+</html>

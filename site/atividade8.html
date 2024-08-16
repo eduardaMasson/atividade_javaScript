@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        var preco = prompt("Digite o preço do produto: ") //armazena o número informado
+        var desconto = prompt("Digite o valor do desconto: ") //armazena o número informado
+        preco = parseFloat(preco) //converte a string para float
+        desconto = parseFloat(desconto) //converte a string para float
+        var calculo = ((preco / 100)*desconto) //variável do cálculo do desconto
+        var precoFinal = (preco - calculo) //variável para calcular o preco final
+        alert (precoFinal) //exibe o resultado
+    </script>
+</head>
+<body>
+    <h1>Cálculo de Desconto</h1>
+</body>
+</html>
